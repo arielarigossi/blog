@@ -1,7 +1,8 @@
 
 ## Docker
 
-<div style="text-align:justify;">Docker is an open-source platform designed to automate the deployment, scaling, and management of applications in lightweight containers. Containers allow developers to package an application with all its dependencies and libraries, ensuring consistent performance across different environments. Docker simplifies and accelerates the workflow from development to production by providing tools for creating, distributing, and running containers. It supports isolation, scalability, and rapid deployment, making it a popular choice for modern software development and DevOps practices.
+<div style="text-align:justify;">
+Docker is an open-source platform designed to automate the deployment, scaling, and management of applications in lightweight containers. Containers allow developers to package an application with all its dependencies and libraries, ensuring consistent performance across different environments. Docker simplifies and accelerates the workflow from development to production by providing tools for creating, distributing, and running containers. It supports isolation, scalability, and rapid deployment, making it a popular choice for modern software development and DevOps practices.
 </div>
 <div style="text-align:justify;">
 The best way to manage docker is through Portainer. Portainer is a lightweight management UI which allows you to easily manage your Docker environments. It can be used to manage Docker containers, images, networks, and volumes from a simple web interface.
