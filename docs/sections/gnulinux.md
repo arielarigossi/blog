@@ -189,9 +189,11 @@ zypper install --allow-vendor-change audacious aria2 avidemux3-qt5 btop catfish 
 <div style="text-align: justify;">
 ArcoLinux is an Arch Linux-based distribution designed to provide users with a customizable and educational Linux experience. It offers several installation paths, ranging from a full desktop environment with pre-installed applications (ArcoLinux) to a minimal setup for advanced users who want to build their systems from the ground up (ArcoLinuxB and ArcoLinuxD). ArcoLinux aims to empower users through its tutorials and documentation, encouraging them to learn about Linux and understand their systems in depth. With its rolling-release model inherited from Arch Linux, ArcoLinux provides access to the latest software while maintaining flexibility for users who prefer to tailor their distributions to their specific needs.
 </div>
+
 <br>
 <br>
 <br>
+
 #### Debian
 <div style="text-align: justify;">
 Debian GNU/Linux is a universal, stable, and free operating system built by the Debian Project, one of the most respected open-source communities. Known for its reliability and vast software repositories, Debian serves as the foundation for many popular Linux distributions, including Ubuntu. It supports multiple architectures and offers three main branches: Stable (for production use), Testing (for advanced users wanting newer features), and Unstable (Sid, for cutting-edge development). With a focus on freedom, security, and compatibility, Debian GNU/Linux is an excellent choice for servers, desktops, and embedded systems alike. It is widely used in both professional environments and personal setups, appreciated for its extensive documentation and long-standing reputation.
