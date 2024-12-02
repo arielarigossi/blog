@@ -5,4 +5,4 @@ Hey there! I’m Ariel, a sysadmin and backend developer with a knack for diving
 </div>
 
 
-- Further contact you can write me an email to arielarigossi_at_outlook.com please add in the subject something like "your github blob" or something could help me filter. 
+- Further contact you can write me an email to arielarigossi_at_outlook.com please add in the subject something like "github Blog" or something could help me filter. 
