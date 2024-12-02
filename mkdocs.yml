@@ -18,7 +18,9 @@ nav:
     - AI: sections/ai.md
     - Docker Container: sections/docker.md
     - GNU/Linux: sections/gnulinux.md
+    - Neovim: sections/neovim.md
     - Systemd: sections/systemd.md
+    - Tmux: sections/tmux.md
     - Virtual Machines: sections/virtualmachines.md
   - About: 
     - About me: about/about.md
