@@ -31,7 +31,6 @@ nav:
     - About me: about/about.md
   
   palette: 
-
     # Palette toggle for light mode
     - scheme: default
       toggle:
@@ -43,7 +42,7 @@ nav:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-        
+
 extra:
   alternate:
     - name: English
