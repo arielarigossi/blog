@@ -2,22 +2,20 @@ site_name: Ariel A.
 site_url: https://arielarigossi.github.io/blog/
 theme:
   name: material
-  palette: 
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: "material/brightness-7"
-        name: "Switch to dark mode"
-
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: "material/brightness-4"
-        name: "Switch to light mode"
-
+  palette:
+    scheme: default  # Base scheme (light mode)
+    primary: indigo
+    accent: indigo
+    toggle:
+      scheme: slate  # Toggle to dark mode
+      primary: indigo
+      accent: indigo
+      icon: material/brightness-4
+      name: Switch to dark mode
   features:
     - navigation.expand
     - navigation.indexes
+    - navigation.instant
     - navigation.instant.progress
     - navigation.sections
     - navigation.tabs
@@ -29,21 +27,21 @@ theme:
 
 nav:
   - Home: 
-    - Home: index.md
-    - Roadmap: news.md
-    - About me: about/about.md
+      - Home: index.md
+      - Roadmap: news.md
+      - About me: about/about.md
 
   - Sections:
-    - AI: sections/ai.md
-    - Docker Container: sections/docker.md
-    - "GNU/Linux": sections/gnulinux.md
-    - Neovim: sections/neovim.md
-    - Systemd: sections/systemd.md
-    - Tmux: sections/tmux.md
-    - "Virtual Machines": sections/virtualmachines.md
+      - AI: sections/ai.md
+      - Docker Container: sections/docker.md
+      - "GNU/Linux": sections/gnulinux.md
+      - Neovim: sections/neovim.md
+      - Systemd: sections/systemd.md
+      - Tmux: sections/tmux.md
+      - "Virtual Machines": sections/virtualmachines.md
 
   - About: 
-    - About me: about/about.md
+      - About me: about/about.md
 
 extra_javascript: 
   - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
