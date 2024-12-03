@@ -30,6 +30,15 @@ nav:
   - About: 
     - About me: about/about.md
 
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Spanish
+      link: /es/
+      lang: es
+
 plugins:
   - search
 
