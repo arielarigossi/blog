@@ -39,7 +39,7 @@ palette:
 
     # Palette toggle for dark mode
   - scheme: slate
-     toggle:
+    toggle:
       icon: material/brightness-4
       name: Switch to light mode
 
