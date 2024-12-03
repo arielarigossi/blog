@@ -18,7 +18,7 @@ theme:
   features:
     - navigation.expand
     - navigation.indexes
-    - navigation.instant
+    # - navigation.instant
     - navigation.instant.progress
     - navigation.sections
     - navigation.tabs
@@ -32,6 +32,7 @@ nav:
     - Home: index.md
     - Roadmap: news.md
     - About me: about/about.md
+
   - Sections:
     - AI: sections/ai.md
     - Docker Container: sections/docker.md
@@ -40,6 +41,7 @@ nav:
     - Systemd: sections/systemd.md
     - Tmux: sections/tmux.md
     - Virtual Machines: sections/virtualmachines.md
+    
   - About: 
     - About me: about/about.md
 
