@@ -1,5 +1,5 @@
 site_name: Ariel A.
-site_url: https://mydomain.org/mysite
+site_url: https://arielarigossi.github.io/blog/
 theme:
   name: material
   features:
@@ -13,7 +13,8 @@ theme:
     - navigation.expand
 nav:
   - Home: index.md
-  - Roadmap: news.md
+    - Roadmap: news.md
+    - About me: about/about.md
   - Sections:
     - AI: sections/ai.md
     - Docker Container: sections/docker.md
