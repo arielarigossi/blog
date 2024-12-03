@@ -12,7 +12,8 @@ theme:
     - navigation.sections
     - navigation.expand
 nav:
-  - Home: index.md
+  - Home: 
+    - Home: index.md
     - Roadmap: news.md
     - About me: about/about.md
   - Sections:
