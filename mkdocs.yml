@@ -43,9 +43,6 @@ nav:
   - About: 
     - About me: about/about.md
 
-plugins:
-  - search
-
 extra_javascript: 
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
