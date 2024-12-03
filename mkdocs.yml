@@ -14,6 +14,7 @@ theme:
     toggle:
       icon: material/brightness-4
       name: Switch to light mode
+
   features:
     - navigation.expand
     - navigation.indexes
@@ -41,15 +42,6 @@ nav:
     - Virtual Machines: sections/virtualmachines.md
   - About: 
     - About me: about/about.md
-
-extra:
-  alternate:
-    - name: English
-      link: /en/ 
-      lang: en
-    - name: Spanish
-      link: /es/
-      lang: es
 
 plugins:
   - search
