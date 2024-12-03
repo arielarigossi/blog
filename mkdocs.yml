@@ -6,14 +6,14 @@ theme:
     # Palette toggle for light mode
     - scheme: default
       toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
+        icon: "material/brightness-7"
+        name: "Switch to dark mode"
 
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+        icon: "material/brightness-4"
+        name: "Switch to light mode"
 
   features:
     - navigation.expand
@@ -41,7 +41,7 @@ nav:
       - Neovim: sections/neovim.md
       - Systemd: sections/systemd.md
       - Tmux: sections/tmux.md
-      - Virtual Machines: sections/virtualmachines.md
+      - "Virtual Machines": sections/virtualmachines.md
 
   - About: 
       - About me: about/about.md
