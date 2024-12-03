@@ -4,6 +4,7 @@ theme:
   name: material
   features:
     - toc.integrate
+    - navigation.indexes
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
@@ -11,6 +12,8 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
+    - toc.follow
+    - toc.integrate
 nav:
   - Home: 
     - Home: index.md
