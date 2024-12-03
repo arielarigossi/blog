@@ -18,7 +18,7 @@ theme:
   features:
     - navigation.expand
     - navigation.indexes
-    # - navigation.instant
+    - navigation.instant
     - navigation.instant.progress
     - navigation.sections
     - navigation.tabs
@@ -27,26 +27,27 @@ theme:
     - navigation.tracking
     - toc.follow
     - toc.integrate
+
 nav:
   - Home: 
-    - Home: index.md
-    - Roadmap: news.md
-    - About me: about/about.md
+      - Home: index.md
+      - Roadmap: news.md
+      - About me: about/about.md
 
   - Sections:
-    - AI: sections/ai.md
-    - Docker Container: sections/docker.md
-    - GNU/Linux: sections/gnulinux.md
-    - Neovim: sections/neovim.md
-    - Systemd: sections/systemd.md
-    - Tmux: sections/tmux.md
-    - Virtual Machines: sections/virtualmachines.md
-    
+      - AI: sections/ai.md
+      - Docker Container: sections/docker.md
+      - "GNU/Linux": sections/gnulinux.md
+      - Neovim: sections/neovim.md
+      - Systemd: sections/systemd.md
+      - Tmux: sections/tmux.md
+      - Virtual Machines: sections/virtualmachines.md
+
   - About: 
-    - About me: about/about.md
+      - About me: about/about.md
 
 extra_javascript: 
-    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 
 markdown_extensions:
-    - mdx_math
+  - mdx_math
