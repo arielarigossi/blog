@@ -3,15 +3,16 @@ site_url: https://arielarigossi.github.io/blog/
 theme:
   name: material
   palette:
-    scheme: default  # Base scheme (light mode)
-    primary: indigo
-    accent: indigo
-    toggle:
-      scheme: slate  # Toggle to dark mode
-      primary: indigo
-      accent: indigo
-      icon: material/brightness-4
-      name: Switch to dark mode
+    
+    - scheme: slate  # Base scheme (dark mode)
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  
+    - scheme: default  # Base scheme (light mode)
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode  
   features:
     - navigation.expand
     - navigation.indexes
